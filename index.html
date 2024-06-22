@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nithish Reddy's-portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://kit.fontawesome.com/f8bec6514f.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <header class="header">
+        <img src="images/logo.png" alt="Company Logo" class="logo">  
+        <nav class="navbar">
+            <ul id="sidemenu">
+                <li> <a href="#home" style="--i:1" class="active">Home</a></li>
+                <li><a href="#about" style="--i:2">About</a></li>
+                <li> <a href="#projects" style="--i:3">projects</a></li>
+                <li> <a href="#certifications" style="--i:3">certifications</a></li>
+                <li> <a href="#contact" style="--i:4">contact me</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+                
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </header>
+    <section class="home">
+        <div id="home">
+            <div class="home-content">
+                <h3>Hey!,This is</h3>
+                <h1> NITHISH REDDY</h1>
+                <h3>Welcome to my PORTFOLIO<span class="element"></span></h3>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------------about----------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image.jpg" alt="notfound">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> Dynamic professional proficient in Artificial Intelligence, Machine Learning (AIML), Data Science and Web Development. Experienced in leveraging data-driven insights to drive business strategies and enhance decision-making processes. Skilled in developing and deploying AI/ML models to solve complex problems. Strong background in front-end and back-end web development, creating responsive and user-friendly applications. Seeking to contribute expertise in AIML and web development to innovate and drive technological advancements in a collaborative environment. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span> Artificial Intelligence | Machine Learning </span><br></li>
+                            <li><span> Data Science </span><br></li>
+                            <li><span> Software Engineer </span><br></li>
+                            <li><span> Web Development | Cyber Security </span><br></li>
+                            <li><span> Buisness Analysis </span><br></li>
+                            <li><span> C# | Java | Python | DBMS </span><br></li>
+                            <li><span> HTML | SQL | PHP | JavaScript </span><br></li>
+                            <li><span> C++ | CSS | IOT | AWS | Bootstrap </span><br></li>
+                            <li><span> MongoDB | ReactJS | NodeJS </span><br></li>
+                            <li><span> VScode | Anaconda | MatLab | SciLab </span><br></li>
+                            <li><span> MS Excel | AutoCad | PhotoShop </span><br></li>
+                            <li><span> Linux | Ubuntu | Unix | AWS </span><br></li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>CMR Institute Of Technology | BTech | ECE | </li>
+                            <li><span>2018-2020</span><br>SR PRIME Junior College | Intermediate | TSBIE</li>
+                            <li><span>2017-2018</span><br>Kendriya Vidyalaya Warangal | Class X | CBSE</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------projects------------------->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="projects-list">
+                <div>
+                    <i class="fa-solid fa-building"></i>
+                    <h2>Smart Building Energy Management System</h2>
+                    <p>To develop and implement a Smart Building Energy Management System (SBEMS) utilizing Machine Learning (ML) and Internet of Things (IoT) technologies to optimize energy consumption, reduce operational costs, and enhance occupant comfort in commercial buildings.</p>
+                    <a href="https://github.com/BHUPATHI-HUB/gas-leakage-detector">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-gamepad"></i>
+                    <h2>TIC-TAC-TOE</h2>
+                    <p>Tic Tac Toe is a classic game that has been enjoyed by people of all ages for generations. For
+                        this project, I aimed to bring this timeless game into the digital realm while infusing it with
+                        a modern twist.My goal was to create an interactive and engaging Tic Tac Toe game that would
+                        provide users with a seamless and enjoyable experience. I focused on designing a visually
+                        appealing interface that is intuitive and easy to navigate, ensuring players can dive right into
+                        the game without any confusion.</p>
+                    <a href="https://github.com/BHUPATHI-HUB/tictactoe">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <h2>Finding Critical Users in Social Communities</h2>
+                    <p> This project aimed to leverage machine learning and data science techniques to identify critical users within social networks via Graph Convolution, crucial for understanding community dynamics and influence propagation. </p>
+                    <a href="https://github.com/BHUPATHI-HUB/PORTFOLIO-WEBDESIGN">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-search"></i>
+                    <h2> Fake News Detection</h2>
+                    <p>This project is to develop a robust system for detecting fake news articles using data science techniques and Python, aiming to enhance the reliability of information disseminated online. </p>
+                    <a href="https://github.com/polepellynithishreddy/Fake-NewsDetection">Learn more</a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-------------------------------certifications------------------------>
+    <div id="certifications">
+        <div class="container">
+            <h1 class="sub-title">My Certifications</h1>
+            <div class="certification-list">
+                <div class="certificate">
+                    <img src="Microsoft.jpg">
+                    <div class="layer">
+                        <h3>Microsoft</h3>
+                        <p>Achieved multiple certificates from microsoft and linkedin. click on All Certifications to view my Certifications.</p>
+                    </div>
+                </div>
+                <div class="certificate">
+                    <img src="Blackbucks.png">
+                    <div class="layer">
+                        <h3>google</h3>
+                        <p>Blackbucks is a leading educational institution based in Hyderabad, specializing in professional certification courses in cutting-edge technologies like Artificial Intelligence (AI) and Machine Learning (ML). successfully completed practical course in Artificial Intelligence and Machine Learning. You can check my certification by clicking on ALL CERTIFICATION below. </p>
+                        
+                    </div>
+                </div>
+                <div class="certificate">
+                    <img src="AWS.png">
+                    <div class="layer">
+                        <h3>AWS</h3>
+                        <p>The AWS Cloud Computing course provides comprehensive training on utilizing Amazon Web
+                            Services (AWS) to build and manage scalable, reliable, and secure cloud solutions. </p>
+                        
+                    </div>
+                </div>
+            </div>
+            <a href="https://drive.google.com/drive/folders/1nAonKvU-wNcEZr-mymzm5OWsSKdqkB2M?usp=drive_link" class="btn"> ALL CERTIFICATIONS </a>
+        </div>
+    </div>
+    <!------------------contact-------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>reddynithishpolepelly@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7396844011</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/nithish-reddy-polepelly-8678a923b/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://https://www.instagram.com/nithish_reddy__01?igsh=MWg0Y3AydHY5MHkxaQ=="><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/polepellynithishreddy"><i class="fa-brands fa-github"></i></a>
+
+                    </div>
+                    <a href="20r01a0415_manideep (1).pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © NRP 2023</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz0QYU7U7RjCepogf9f3TEi5-L9MvQewotfdr63FWdxmFeGmPQJJDjPYWR_KZ7Z9zX_4A/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
